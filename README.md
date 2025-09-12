@@ -111,7 +111,6 @@ The `test/ElaboratePoC.t.sol` file contains the complete, self-contained Foundry
 
 ### **Summary in Bullet Points for the Mediator:**
 
-If you were to summarize the "new" evidence for a mediator, you would say:
 
 *   **We have moved beyond simple function reverts.** Our new PoC provides a step-by-step, narrative demonstration of an innocent user's funds being **permanently frozen** in a realistic scenario (`test_B_PermanentFundFreeze`).
 
@@ -119,4 +118,3 @@ If you were to summarize the "new" evidence for a mediator, you would say:
 
 *   **We have moved beyond arguing about external context.** Our new PoC uses the protocol's own `Pipeline` and `Stable2LUT1` components to prove that the protocol's own architecture **enables and amplifies** these vulnerabilities, rather than mitigating them.
 
-This new evidence is not a "resubmission." It is a definitive, practical demonstration of the critical, real-world impact that the project initially dismissed.
