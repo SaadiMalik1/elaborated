@@ -67,7 +67,7 @@ The `test/ElaboratePoC.t.sol` file contains the complete, self-contained Foundry
 
 `forge test -vvvv`
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### **Key Differences: Initial Mediation Request vs. New Elaborate Evidence**
 
@@ -108,7 +108,7 @@ The `test/ElaboratePoC.t.sol` file contains the complete, self-contained Foundry
     *   **Strength:** It proves that their "broader protocol context" is not a mitigator but an **amplifier** for the vulnerabilities, providing the exact weapon needed for efficient exploitation.
 
 ---
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### **Summary in Bullet Points for the Mediator:**
 
 
