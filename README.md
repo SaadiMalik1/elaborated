@@ -65,9 +65,4 @@ The `test_A_OfficialLUT_Reverts_With_Malformed_UserInput()` test proves this vec
 
 The `test/ElaboratePoC.t.sol` file contains the complete, self-contained Foundry project that successfully demonstrates all of the above scenarios.
 
-#### **Setup**
-1. Ensure [Foundry](https://getfoundry.sh) is installed.
-2. Clone this repository.
-3. Install dependencies:
-   ```sh
-   forge install
+
