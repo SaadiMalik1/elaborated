@@ -65,4 +65,4 @@ The `test_A_OfficialLUT_Reverts_With_Malformed_UserInput()` test proves this vec
 
 The `test/ElaboratePoC.t.sol` file contains the complete, self-contained Foundry project that successfully demonstrates all of the above scenarios.
 
-
+`forge test -vvvv`
