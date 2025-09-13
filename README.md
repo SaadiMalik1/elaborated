@@ -17,7 +17,7 @@ The tests within this project provide step-by-step, reproducible demonstrations 
 
 ---
 
-## 1. Primary Finding: Atomic Theft via Price Manipulation
+## 1. Finding: Atomic Theft via Price Manipulation
 
 The `Stable2.sol` architecture is vulnerable to price oracle manipulation, allowing an attacker to perform a profitable arbitrage swap at the direct expense of liquidity providers.
 
@@ -35,7 +35,7 @@ The `test_C_AtomicTheftViaPipeline()` test provides a step-by-step demonstration
 
 **Conclusion:** This is a proven, profitable exploit. The test logs clearly show the profit (`Pipeline's REBASE balance after exploit: 181818181818181818181`), confirming a quantifiable theft from LPs.
 
-## 2. Secondary Finding: Permanent Fund Freezing (Griefing Attack)
+## 2.  Finding: Permanent Fund Freezing (Griefing Attack)
 
 A single, user-initiated transaction can place the `Stable2.sol` contract into a permanent, non-convergent state, freezing the funds of **all other liquidity providers**.
 
@@ -49,7 +49,7 @@ The `test_B_PermanentFundFreeze()` test provides a narrative, step-by-step demon
 
 **Conclusion:** This is a critical vulnerability where one user can permanently destroy the functionality of the contract for everyone else, resulting in a total loss of access to all deposited funds.
 
-## 3. Tertiary Finding: Protocol-Level DoS via Trusted Components
+## 3.  Finding: Protocol-Level DoS via Trusted Components
 
 The system is vulnerable to a Denial of Service on a core protocol function, which can be triggered by any user, using the protocol's **own trusted `Stable2LUT1.sol`**.
 
