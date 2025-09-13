@@ -71,6 +71,4 @@ The `test/ElaboratePoC.t.sol` file contains the complete, self-contained Foundry
 #### **Setup**
 1. Ensure [Foundry](https://getfoundry.sh) is installed.
 2. Clone this repository.
-3. Install dependencies:
-   ```sh
-   forge install
+3. `forge test -vvvv`
