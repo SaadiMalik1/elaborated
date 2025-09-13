@@ -1,6 +1,6 @@
 # Definitive Proof of Concept: Critical Vulnerabilities in Stable2.sol
 
-This repository contains a single, comprehensive, and elaborate Proof of Concept (`ElaboratePoC.t.sol`). This is not a theoretical analysis; it is a practical demonstration of critical-severity vulnerabilities in the `Stable2.sol` contract and its integration into the Beanstalk ecosystem.
+This repository contains a single, comprehensive, and elaborate Proof of Concept (`elaborated2-poc.t.sol`). This is not a theoretical analysis; it is a practical demonstration of critical-severity vulnerabilities in the `Stable2.sol` contract and its integration into the Beanstalk ecosystem.
 
 The tests within this project provide step-by-step, reproducible demonstrations of:
 1.  **Atomic Theft:** A profitable, multi-step arbitrage attack.
@@ -10,11 +10,10 @@ The tests within this project provide step-by-step, reproducible demonstrations 
 ---
 
 ## Table of Contents
-1. [Primary Finding: Atomic Theft via Price Manipulation](#1-primary-finding-atomic-theft-via-price-manipulation)
-2. [Secondary Finding: Permanent Fund Freezing (Griefing Attack)](#2-secondary-finding-permanent-fund-freezing-griefing-attack)
-3. [Tertiary Finding: Protocol-Level DoS via Trusted Components](#3-tertiary-finding-protocol-level-dos-via-trusted-components)
+1. [ Finding: Atomic Theft via Price Manipulation](#1-primary-finding-atomic-theft-via-price-manipulation)
+2. [ Finding: Permanent Fund Freezing (Griefing Attack)](#2-secondary-finding-permanent-fund-freezing-griefing-attack)
+3. [ Finding: Protocol-Level DoS via Trusted Components](#3-tertiary-finding-protocol-level-dos-via-trusted-components)
 4. [Proof of Concept Reproduction](#4-proof-of-concept-reproduction)
-5. [Conclusion & Recommendations](#5-conclusion--recommendations)
 
 ---
 
