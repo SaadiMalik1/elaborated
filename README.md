@@ -10,9 +10,9 @@ The tests within this project provide step-by-step, reproducible demonstrations 
 ---
 
 ## Table of Contents
-1. [ Finding: Atomic Theft via Price Manipulation](#1-primary-finding-atomic-theft-via-price-manipulation)
-2. [ Finding: Permanent Fund Freezing (Griefing Attack)](#2-secondary-finding-permanent-fund-freezing-griefing-attack)
-3. [ Finding: Protocol-Level DoS via Trusted Components](#3-tertiary-finding-protocol-level-dos-via-trusted-components)
+1. [Finding: Atomic Theft via Price Manipulation](#1-primary-finding-atomic-theft-via-price-manipulation)
+2. [Finding: Permanent Fund Freezing (Griefing Attack)](#2-secondary-finding-permanent-fund-freezing-griefing-attack)
+3. [Finding: Protocol-Level DoS via Trusted Components](#3-tertiary-finding-protocol-level-dos-via-trusted-components)
 4. [Proof of Concept Reproduction](#4-proof-of-concept-reproduction)
 
 ---
