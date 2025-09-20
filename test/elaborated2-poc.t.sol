@@ -2,7 +2,7 @@
 //
 // =================================================================================================
 // ==         ULTIMATE PROOF OF CONCEPT for Stable2.sol Systemic Vulnerabilities            ==
-// ==  This PoC uses a mock Well and the OFFICIAL, PRODUCTION Pipeline.sol contract to        ==
+// ==  This PoC uses the OFFICIAL Well and PRODUCTION Pipeline.sol contract to        ==
 // ==  demonstrate the real-world impact of the vulnerabilities, including:                    ==
 // ==    1. A user's funds being PERMANENTLY FROZEN by a griefing attack.                     ==
 // ==    2. An attacker executing a profitable ATOMIC THEFT via price manipulation.           ==
